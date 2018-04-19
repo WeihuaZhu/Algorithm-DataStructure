@@ -34,5 +34,12 @@ LC746 Min cost climbing stairs time: 8min 30s
 入门级DP 重在理解根据依赖关系优化空间复杂度    
 此题因为i只依赖于i-1和i-2，所以可以用两个temp来存储即可  
 note 最后只需返回最后一个元素和倒数第二个元素的最小值  
-  
+LC413 Arithmetic Slices time: 12min 45s
+空间O(1) 同样用temp来存前一步的结果 每步的结果都存以index i为结尾的结果。
+note 存结尾的思想，变为尾部拼接。好处在于归类更清晰，而不是区间定义，尾部拼接会变成时间复杂度O(n)的问题。  
+这种思想在做过的很多题都有，比如很经典的max subarray sum，就是考虑以index i结尾的subarray的结果
+LC446 Arithmetic Slices II - Subsequence
+
+
+
 
