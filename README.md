@@ -38,7 +38,11 @@ LC413 Arithmetic Slices time: 12min 45s
 空间O(1) 同样用temp来存前一步的结果 每步的结果都存以index i为结尾的结果。
 note 存结尾的思想，变为尾部拼接。好处在于归类更清晰，而不是区间定义，尾部拼接会变成时间复杂度O(n)的问题。  
 这种思想在做过的很多题都有，比如很经典的max subarray sum，就是考虑以index i结尾的subarray的结果
-LC446 Arithmetic Slices II - Subsequence
+LC446 Arithmetic Slices II - Subsequence time: 46mins  
+Hard 想到了solution的思想（记录数列末端的元素及等差d）但是implement的时候参考了答案  
+此题还需要回看 关键在于如何在复杂的条件下使用HashMap，另外考虑是否空间复杂度还可以优化，目前是O(n),  
+对比下ArrayList和HashMap的使用  
+TODO: 另外此题可以有follow up输出所有这些结果。应该用ArrayList储存res。
 
 
 
