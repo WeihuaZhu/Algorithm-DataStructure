@@ -21,6 +21,18 @@ LC263 Ugly Number time: 5mins
 Math题 轮流除因子  
 LC202 Happy Number time: 9mins 40s  
 Simulation题 只要出现重复了必然循环 所以用HashSet存记录  
-
-
+LC258 Add Digits time: 11mins
+O(1)解 考虑余数的思想  
+num = 1000a + 100b + 10c + d  
+那么(num % 9) 会变成 (a+b+c+d)%9，因为去掉了可以整除的部分999a,99b,9c  
+然后(a+b+c+d)%9 会变成他们的和对9的余数又变成比如(m+n+l) % 9，以此类推  
+直到变成一位，也就是最终result
+LC70 Climing Stairs time: 7mins 30s
+入门级DP 重在理解根据依赖关系优化空间复杂度  
+此题因为i只依赖于i-1和i-2，所以可以用两个temp来存储即可
+LC746 Min cost climbing stairs time: 8min 30s  
+入门级DP 重在理解根据依赖关系优化空间复杂度    
+此题因为i只依赖于i-1和i-2，所以可以用两个temp来存储即可  
+note 最后只需返回最后一个元素和倒数第二个元素的最小值  
+  
 
