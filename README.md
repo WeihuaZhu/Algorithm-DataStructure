@@ -42,4 +42,18 @@ note 存结尾的思想，变为尾部拼接。好处在于归类更清晰，而
 Hard 想到了solution的思想（记录数列末端的元素及等差d）但是implement的时候参考了答案  
 此题还需要回看 关键在于如何在复杂的条件下使用HashMap，另外考虑是否空间复杂度还可以优化，目前是O(n),  
 对比下ArrayList和HashMap的使用  
-TODO: 另外此题可以有follow up输出所有这些结果。应该用ArrayList储存res。
+TODO: 另外此题可以有follow up输出所有这些结果。应该用ArrayList储存res  
+
+4/20/2018  
+### LC650 2 Keys Keyboard time: 40min
+优化DP
+### LC279 Perfect Squares time: 10min
+尾部拼接 击败了90% 但是否还能优化？  
+### LC223 Rectangle Area time: 6min 44s
+先判断是否overlap 代码模块化  
+### LC171 Excel Sheet Column Number time: 5min 25s
+记住Math.pow 和 Math.sqrt都是返回double值  
+### LC168 Excel Sheet Column Title time: 36min 37s  
+用StringBuilder + reverse String  
+一定要保证真实的O(n)复杂度  
+
