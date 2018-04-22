@@ -57,3 +57,10 @@ TODO: 另外此题可以有follow up输出所有这些结果。应该用ArrayLis
 用StringBuilder + reverse String  
 一定要保证真实的O(n)复杂度  
 
+4/21/2018  
+### LC357 Count Numbers with Unique Digits time: 7min
+O(n) 排列组合问题  
+### LC303. Range Sum Query - Immutable time: 9min
+prefix sum的应用
+### LC304. Range Sum Query 2D time： 30min
+每一行用prefix sum
