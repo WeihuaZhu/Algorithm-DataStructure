@@ -64,3 +64,16 @@ O(n) 排列组合问题
 prefix sum的应用
 ### LC304. Range Sum Query 2D time： 30min
 每一行用prefix sum
+
+4/22/2018
+### LC343 Integer Break time: 13min
+一个DP方法 一个数学方法  
+### LC172 Factorial Trailing Zeroes time: 7min
+2和5才能出现0  
+### LC268 Missing Number time: 2min 43s
+注意所有array元素有限定范围情况下的优化
+### LC287. Find the Duplicate Number time: 21min 13s
+Floyd's Tortoise and Hare (Cycle Detection) 算法  
+双指针检测link cycle entry point LC linkedlist cycle II
+### LC645. Set Mismatch time: 6min
+多种方法总结
