@@ -12,6 +12,9 @@ contains(Object o)
 
 ## Tricks
 
+## Common mistakes
+- forget to write return
+- finding max or min, forget to update the min and max value
 
 ## Diary
 4/19/2018   
@@ -76,4 +79,20 @@ prefix sum的应用
 Floyd's Tortoise and Hare (Cycle Detection) 算法  
 双指针检测link cycle entry point LC linkedlist cycle II
 ### LC645. Set Mismatch time: 6min
-多种方法总结
+多种方法总结  
+
+4/23/2018  
+### LC697 Degree of an Array time: 20min [1/100题]
+先找度 再头尾双指针找区间
+follow up 包含所有出现频率最高的元素的最短区间：min start和max end  
+### LC632 Smallest Range time: 35min [2/100题]
+双针模型，第一遍写的TLE  
+优化：用PriorityQueue存并更新 复杂度O(nlog(k)), n is the total number of elements in all lists,  
+k refers to the total number of lists.  
+follow up 每个列表至少有2个元素在里面（小trick）  
+### LC547 Friend Circles time: 15min [3/100题]
+Union Find应用  
+注意用rank数组存储来加速 需要回看
+### LC200 Number of Islands time: 20min
+Union Find应用 但是速度慢  
+需要回看 优化  
