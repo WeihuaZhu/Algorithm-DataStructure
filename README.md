@@ -104,3 +104,10 @@ O(N) follow up: 如果边有weight （解法没有区别）
 bucket sort 吊桶模型  
 ### LC443 String Compression time: 10min [6/100题]
 easy
+
+4/25/2018
+### LC398 Random Pick Index time: 6min 30s [7/100道]
+Reservoir Sampling  
+follow up: regular reservoir sampling and sample k randomly from them  
+### LC382 Linked List Random Node time: 4min 27s
+Reservoir Sampling  
