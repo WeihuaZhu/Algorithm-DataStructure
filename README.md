@@ -95,4 +95,12 @@ Union Find应用
 注意用rank数组存储来加速 需要回看
 ### LC200 Number of Islands time: 20min
 Union Find应用 但是速度慢  
-需要回看 优化  
+需要回看 优化
+
+4/24/2018
+### LC543 Diameter of Binary Tree time 20min [4/100题]
+O(N) follow up: 如果边有weight （解法没有区别）  
+### LC451 Sort Characters By Frequency time: 11min 20s [5/100题]
+bucket sort 吊桶模型  
+### LC443 String Compression time: 10min [6/100题]
+easy
