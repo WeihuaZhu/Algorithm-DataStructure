@@ -119,3 +119,9 @@ Reservoir Sampling
 不inverse做 inplace  
 ### LC66 Plus One time: 11min
 easy inplace early return
+
+4/27/2018
+### LC88 Merge Sorted Array time: 6min 30s
+The trick is to compare backward, so that is possible to shift elements least  
+### LC674 Longest Continuous Increasing Subsequence time: 5min
+easy 记得考虑出循环是否要判断的情况
