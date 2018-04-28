@@ -11,6 +11,8 @@ contains(Object o)
 
 
 ## Tricks
+Arrays.copyOfRange(out, 1-trans, out.length);  
+System.arraycopy(digits, 0, rst, 1, digits.length);  
 
 ## Common mistakes
 - forget to write return
@@ -111,3 +113,9 @@ Reservoir Sampling
 follow up: regular reservoir sampling and sample k randomly from them  
 ### LC382 Linked List Random Node time: 4min 27s
 Reservoir Sampling  
+
+4/26/2018
+### LC67 Add Binary time: 17min 39s
+不inverse做 inplace  
+### LC66 Plus One time: 11min
+easy inplace early return
