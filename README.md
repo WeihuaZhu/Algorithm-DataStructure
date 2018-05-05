@@ -125,3 +125,9 @@ easy inplace early return
 The trick is to compare backward, so that is possible to shift elements least  
 ### LC674 Longest Continuous Increasing Subsequence time: 5min
 easy 记得考虑出循环是否要判断的情况
+
+4/28/2018
+### LC151 Reverse Words in a String time: 10min
+trim + split + regex  
+follow up：in place操作 不借用任何现成method  
+需要回看
