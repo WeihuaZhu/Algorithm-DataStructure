@@ -219,3 +219,11 @@ easy flipandinvertrow
 ### LC836 Rectangle Overlap time: 1min
 
 easy
+
+### LC771. Jewels and Stones time: 1min
+
+easy HashSet, 优化用bucket
+
+### LC594. Longest Harmonious Subsequence
+
+easy HashMap 考虑回看优化 speedup
