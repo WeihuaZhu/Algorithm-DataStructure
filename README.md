@@ -224,6 +224,6 @@ easy
 
 easy HashSet, 优化用bucket
 
-### LC594. Longest Harmonious Subsequence
+### LC594. Longest Harmonious Subsequence time: 5min
 
 easy HashMap 考虑回看优化 speedup
