@@ -227,3 +227,11 @@ easy HashSet, 优化用bucket
 ### LC594. Longest Harmonious Subsequence time: 5min
 
 easy HashMap 考虑回看优化 speedup
+
+5.20 5.21 to be completed
+
+5/22/2018
+
+### LC811 Subdomain Visit Count time: 12mins
+
+HashMap应用
