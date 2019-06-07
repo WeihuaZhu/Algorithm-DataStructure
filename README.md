@@ -3,7 +3,7 @@
 Coding questions practice in JAVA
 @Author Weihua Zhu
 @Version Last update 4/19/2018
-Total 115/784
+Total 310/1070
 
 ## Common APIs
 
